@@ -36,7 +36,7 @@ client.login("NDA5MzY4MDUzNjU5NDY3Nzc5.DVdlSQ.FwA--_rhWkfRYk6mvoQcm-83PQw");
 function get_api (channel) {
 	console.log('Start get_api: ' + moment().format('YYYYMMDD HH:MM:SS'));
 
-	var url = "http://www.coincalendar.info/wp-json/eventon/calendar?event_type=3&number_of_months=1&event_count=5&show_et_ft_img=yes"
+	var url = "http://www.coincalendar.info/wp-json/eventon/calendar?event_type=3&number_of_months=1&event_count=20&show_et_ft_img=yes"
 
 	request({
 	    url: url,
